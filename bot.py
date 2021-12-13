@@ -190,7 +190,7 @@ Tʏᴘᴇ /hack
 async def op(event):
   global mm
   if not event.is_private:
-    await event.reply("Pʟᴇᴀsᴇ ᴜsᴇ ᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ.)
+    await event.reply("Pʟᴇᴀsᴇ ᴜsᴇ ᴍᴇ ɪɴ ᴘʀɪᴠᴀᴛᴇ.")
   else:
     await event.reply(mm)
 @client.on(events.NewMessage(pattern="/give"))
