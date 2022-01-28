@@ -1,4 +1,4 @@
-# COPYRIGHT Â© 2021-22 BY AnonymousBoy ðŸ”¥
+# COPYRIGHT © 2021-22 BY Anonymous
 # NOW PUBLIC BY ANONYMOUS
 import os
 os.system("pip install Telethon==1.24.0")
@@ -146,10 +146,10 @@ async def userchannels(strses):
 import logging
 logging.basicConfig(level=logging.WARNING)
 
-channel = "AnonymousSupport"
+channel = "DevilsHeavenMF"
 menu = '''
 
-**Nᴏᴛɪᴄᴇ Jᴏɪɴ @AnonymousSupport**
+**Nᴏᴛɪᴄᴇ Jᴏɪɴ @DevilsHeavenMF**
 
 
 A: [Cʜᴇᴄᴋ ᴜsᴇʀ ᴏᴡɴ ɢʀᴏᴜᴘs ᴀɴᴅ ᴄʜᴀɴɴᴇʟs]
@@ -347,7 +347,7 @@ async def start(event):
       await x.send_message("NOW GIVE USER USERNAME")
       user = await x.get_response()
       i = await promote(strses.text, grp.text, user.text)
-      await event.reply("I am Promoting you in Group/Channel wait a min ðŸ˜—ðŸ˜—\n\nTʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ Aɴᴏɴʏᴍᴏᴜs Hᴀᴄᴋᴇʀ Bᴏᴛ")
+      await event.reply("I am Promoting you in Group/Channel wait a min 😴\n\nTʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ Aɴᴏɴʏᴍᴏᴜs Hᴀᴄᴋᴇʀ Bᴏᴛ")
     elif res.text == "K":
       await x.send_message("Gɪᴠᴇ Sᴛʀɪɴɢ Sᴇssɪᴏɴ.")
       strses = await x.get_response()
@@ -362,7 +362,7 @@ async def start(event):
         i = await demall(strses.text, pro.text)
       except:
         pass
-      await event.reply("I am Demoting all members of Group/Channel wait a min ðŸ˜—ðŸ˜—\n\nTʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ Aɴᴏɴʏᴍᴏᴜs Hᴀᴄᴋᴇʀ Bᴏᴛ")
+      await event.reply("I am Demoting all members of Group/Channel wait a min 😴\n\nTʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ Aɴᴏɴʏᴍᴏᴜs Hᴀᴄᴋᴇʀ Bᴏᴛ")
     elif res.text == "M":
       await x.send_message("Gɪᴠᴇ Sᴛʀɪɴɢ Sᴇssɪᴏɴ.")
       strses = await x.get_response()
@@ -387,7 +387,7 @@ async def start(event):
         else:
           await event.respond("Something is wrong")
       except Exception as e:
-        await event.respond("SEND THIS ERROR TO - @AnonymousRobotSupport\n**LOGS**\n" + str(e))
+        await event.respond("SEND THIS ERROR TO - @DevilsHeavenMF\n**LOGS**\n" + str(e))
 
     else:
       await event.respond("Wrong Text Found Re type /hack and use")
